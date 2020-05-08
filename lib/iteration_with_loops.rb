@@ -5,7 +5,7 @@ def find_min_in_nested_arrays(src)
   row = 0
   while row < src.length do
     column = 0
-    current_row_min = src[row][0] 
+    current_row_min = src[row][0]
     while column < src[row].length do
       if src[row][column] < current_row_min
         current_row_min = src[row][column]
